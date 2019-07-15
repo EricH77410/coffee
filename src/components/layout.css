@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,h6{
     font-size: 2rem;
 }
 
-.default-background {
+.default-background, .about-background {
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -46,3 +46,16 @@ h1,h2,h3,h4,h5,h6{
     background: var(--mainYellow);
     color: var(--mainBrown);
 }
+
+.footer {
+    background: var(--mainBrown);
+}
+
+.about-background {
+    min-height: 60vh;
+}
+
+.menu, .contact {
+    background: var(--mainGrey);
+}
+
